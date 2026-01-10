@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Detailing Car Center - Servicio Premium de Detallado Automotriz</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-body transition-colors duration-300">
+    <nav
+        class="fixed w-full z-50 bg-surface-light/90 dark:bg-black/90 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                   <div
+    class="h-10 w-10 bg-black rounded-full flex items-center justify-center border-2 border-primary overflow-hidden">
+    
+    <img 
+        src="./assets/logo.png"
+        alt="Detailing Car Center Logo"
+        class="w-full h-full object-contain p-1"
+    />
+</div>
+
+                    <span class="font-display font-bold text-xl tracking-tight text-black dark:text-white">DETAILING
+                        <span class="text-primary">CAR CENTER</span></span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a class="text-gray-900 dark:text-gray-100 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                            href="#inicio">Inicio</a>
+                        <a class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                            href="#servicios">Servicios</a>
+                        <a class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                            href="#proceso">Proceso</a>
+                        <a class="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                            href="#faq">FAQ</a>
+                        <a class="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-full text-sm font-bold transition-all shadow-lg shadow-primary/30"
+                            href="#contacto">Agendar Cita</a>
+                    </div>
+                </div>
+                <div class="-mr-2 flex md:hidden">
+                    <button
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
+                        type="button">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section
+        class="relative pt-20 pb-16 md:pt-32 md:pb-24 lg:pt-40 lg:pb-32 bg-hero-pattern bg-cover bg-center bg-no-repeat bg-fixed"
+        id="inicio">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+
+            <div
+                class="absolute inset-0 bg-primary opacity-20 blur-2xl rounded-full group-hover:opacity-40 transition-opacity duration-500">
+            </div>
+            <div class="flex flex-col items-center text-center">
+
+                <!-- LOGO -->
+                <div class="w-56 h-56 md:w-64 md:h-64 
+                rounded-full overflow-hidden 
+                bg-black 
+                border-4 border-white/80 
+                shadow-2xl shadow-black/60 
+                flex items-center justify-center 
+                transition-transform duration-500 
+                group-hover:scale-105
+                mb-8">
+
+                    <img src="./assets/logo.png" alt="Detailing Car Center Logo"
+                        class="w-full h-full object-contain p-6" />
+                </div>
+
+                <!-- TÍTULO -->
+                <h1 class="text-4xl md:text-6xl font-display font-bold text-white mb-6">
+                    Excelencia en cada <span class="text-primary">Detalle</span>
+                </h1>
+
+            </div>
+
+            <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-300 mb-10">
+                Transformamos tu vehículo con el cuidado y la precisión que merece. Servicio a domicilio y en nuestro
+                centro especializado.
+            </p>
+            <div class="flex justify-center gap-4 flex-col sm:flex-row">
+                <a class="bg-primary hover:bg-primary-dark text-white font-bold py-4 px-8 rounded-full shadow-lg shadow-primary/40 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
+                    href="#contacto">
+                    <span class="material-symbols-outlined">calendar_month</span> Reservar Ahora
+                </a>
+                <a class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-black font-bold py-4 px-8 rounded-full transition-all flex items-center justify-center gap-2"
+                    href="#servicios">
+                    <span class="material-symbols-outlined">visibility</span> Ver Servicios
+                </a>
+            </div>
+            <div class="mt-16 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4 items-center opacity-70">
+                <div class="flex flex-col items-center">
+                    <span class="material-symbols-outlined text-4xl text-white mb-2">verified</span>
+                    <span class="text-white text-sm">Garantía de Calidad</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="material-symbols-outlined text-4xl text-white mb-2">home_pin</span>
+                    <span class="text-white text-sm">Servicio a Domicilio</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="material-symbols-outlined text-4xl text-white mb-2">diamond</span>
+                    <span class="text-white text-sm">Productos Premium</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="material-symbols-outlined text-4xl text-white mb-2">schedule</span>
+                    <span class="text-white text-sm">Puntualidad</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-surface-light dark:bg-surface-dark" id="servicios">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-primary font-semibold tracking-wide uppercase text-sm">Nuestros Servicios</h2>
+                <p
+                    class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+                    Cuidado Integral para tu Auto
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 mx-auto">
+                    Desde lavados básicos hasta correcciones de pintura de alto nivel.
+                </p>
+            </div>
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8 border-l-4 border-primary pl-4">
+                    Paquetes de Lavado</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div
+                        class="bg-white dark:bg-background-dark rounded-2xl shadow-xl overflow-hidden card-hover border border-gray-100 dark:border-gray-800">
+                        <div class="p-8">
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Lavado Común</h4>
+                                <span class="material-symbols-outlined text-gray-400 text-3xl">water_drop</span>
+                            </div>
+                            <p class="text-gray-500 dark:text-gray-400 mb-6 text-sm">Mantenimiento esencial para el día
+                                a día.</p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Lavado exterior con shampoo pH neutro</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Aspirado básico de interiores</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Limpieza de llantas y rines</li>
+                            </ul>
+                            <a class="block w-full text-center bg-gray-100 dark:bg-gray-800 hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white text-gray-900 dark:text-white font-semibold py-3 rounded-lg transition-colors"
+                                href="#contacto">Cotizar</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-background-dark rounded-2xl shadow-xl overflow-hidden card-hover border-2 border-primary relative transform scale-105 z-10">
+                        <div
+                            class="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg uppercase">
+                            Recomendado</div>
+                        <div class="p-8">
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Lavado Premium</h4>
+                                <span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+                            </div>
+                            <p class="text-gray-500 dark:text-gray-400 mb-6 text-sm">Limpieza profunda y protección
+                                básica.</p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span> Todo
+                                    lo del lavado común</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Encerado rápido manual</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Acondicionamiento de plásticos</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Limpieza de vidrios detallada</li>
+                            </ul>
+                            <a class="block w-full text-center bg-primary hover:bg-primary-dark text-white font-semibold py-3 rounded-lg transition-colors shadow-lg shadow-primary/20"
+                                href="#contacto">Cotizar</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-background-dark rounded-2xl shadow-xl overflow-hidden card-hover border border-gray-100 dark:border-gray-800">
+                        <div class="p-8">
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Lavado VIP</h4>
+                                <span class="material-symbols-outlined text-yellow-500 text-3xl">crown</span>
+                            </div>
+                            <p class="text-gray-500 dark:text-gray-400 mb-6 text-sm">La experiencia definitiva de
+                                limpieza.</p>
+                            <ul class="space-y-3 mb-8">
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Lavado Premium + Descontaminación</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Hidratación de vestiduras de piel</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Lavado de motor a vapor</li>
+                                <li class="flex items-center text-sm text-gray-600 dark:text-gray-300"><span
+                                        class="material-symbols-outlined text-primary text-base mr-2">check</span>
+                                    Perfumado de interiores</li>
+                            </ul>
+                            <a class="block w-full text-center bg-gray-100 dark:bg-gray-800 hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white text-gray-900 dark:text-white font-semibold py-3 rounded-lg transition-colors"
+                                href="#contacto">Cotizar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8 border-l-4 border-primary pl-4">Servicios
+                Especializados</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group relative rounded-xl overflow-hidden h-64 shadow-lg">
+                    <img alt="Ceramic Coating"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="./assets/tratamientoCeramico.jpg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-primary">shield</span>
+                            <h4 class="text-xl font-bold text-white">Tratamiento Cerámico</h4>
+                        </div>
+                        <p
+                            class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Protección de larga duración hasta por 3 años, repelencia al agua y brillo extremo.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-xl overflow-hidden h-64 shadow-lg">
+                    <img alt="Varnish Correction"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="./assets/barniz.jpg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-primary">blur_on</span>
+                            <h4 class="text-xl font-bold text-white">Corrección de Barniz</h4>
+                        </div>
+                        <p
+                            class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Eliminación de microrrayones y marcas de remolino para restaurar la profundidad del color.
+                        </p>
+                    </div>
+                </div>
+                <div class="group relative rounded-xl overflow-hidden h-64 shadow-lg">
+                    <img alt="Interior Cleaning"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="./assets/interior.jpg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-primary">airline_seat_recline_extra</span>
+                            <h4 class="text-xl font-bold text-white">Limpieza de Interiores</h4>
+                        </div>
+                        <p
+                            class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Lavado de tapicería, techo y alfombras con inyección-succión.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-xl overflow-hidden h-64 shadow-lg">
+                    <img alt="Pre-sale Polishing"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="./assets/pulidoPreventa.jpg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-primary">sell</span>
+                            <h4 class="text-xl font-bold text-white">Pulido Pre-Venta</h4>
+                        </div>
+                        <p
+                            class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Maximiza el valor de tu auto antes de venderlo con un acabado impecable.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-xl overflow-hidden h-64 shadow-lg">
+                    <img alt="Engine Wash"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="./assets/lavadoMotor.jpg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-primary">settings</span>
+                            <h4 class="text-xl font-bold text-white">Lavado de Motor</h4>
+                        </div>
+                        <p
+                            class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Desengrasado seguro y abrillantado de plásticos del compartimiento del motor.</p>
+                    </div>
+                </div>
+                <div class="group relative rounded-xl overflow-hidden h-64 shadow-lg">
+                    <img alt="Optics Correction"
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="./assets/opticas-correccion.jpg" />
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent flex flex-col justify-end p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="material-symbols-outlined text-primary">lightbulb</span>
+                            <h4 class="text-xl font-bold text-white">Corrección de Ópticas</h4>
+                        </div>
+                        <p
+                            class="text-gray-300 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Restauración de faros opacos o amarillentos para mejorar visibilidad y estética.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 bg-surface-dark border-y border-gray-800 relative overflow-hidden" id="testimonios">
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-primary opacity-5 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-white opacity-5 blur-3xl"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-primary font-semibold tracking-wide uppercase text-sm">Testimonios</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+                    Lo que dicen nuestros clientes
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-400 mx-auto">
+                    La confianza y satisfacción de quienes eligen nuestro servicio.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div
+                    class="bg-background-dark/50 backdrop-blur-sm border border-gray-800 p-8 rounded-2xl shadow-xl hover:border-primary/50 transition-colors duration-300">
+                    <div class="flex text-primary mb-4">
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic text-sm leading-relaxed">"Increíble atención al detalle.
+                        Contraté el servicio de corrección de pintura para mi auto negro y quedó como un espejo. El
+                        equipo fue muy profesional y explicaron todo el proceso."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="h-10 w-10 rounded-full bg-gray-700 flex items-center justify-center text-white font-bold text-sm border border-gray-600">
+                            CR</div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Carlos Rodríguez</h4>
+                            <p class="text-xs text-gray-500">BMW Serie 3</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-background-dark/50 backdrop-blur-sm border border-gray-800 p-8 rounded-2xl shadow-xl hover:border-primary/50 transition-colors duration-300 relative">
+                    <span
+                        class="material-symbols-outlined absolute top-6 right-6 text-6xl text-gray-800/50 -z-10">format_quote</span>
+                    <div class="flex text-primary mb-4">
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic text-sm leading-relaxed">"El servicio a domicilio es lo mejor.
+                        Llegaron puntuales con todo su equipo y dejaron mi camioneta impecable sin que yo tuviera que
+                        salir de casa. Recomendadísimos."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="h-10 w-10 rounded-full bg-gray-700 flex items-center justify-center text-white font-bold text-sm border border-gray-600">
+                            AM</div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Ana Martínez</h4>
+                            <p class="text-xs text-gray-500">Honda CR-V</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-background-dark/50 backdrop-blur-sm border border-gray-800 p-8 rounded-2xl shadow-xl hover:border-primary/50 transition-colors duration-300">
+                    <div class="flex text-primary mb-4">
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                        <span class="material-symbols-outlined material-symbols-filled text-xl">star</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 italic text-sm leading-relaxed">"Hice el tratamiento cerámico y la
+                        diferencia es abismal. El agua resbala sola y el brillo es espectacular. Vale cada peso
+                        invertido por la protección que ofrece."</p>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="h-10 w-10 rounded-full bg-gray-700 flex items-center justify-center text-white font-bold text-sm border border-gray-600">
+                            JL</div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm">Jorge López</h4>
+                            <p class="text-xs text-gray-500">Mazda 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-gray-50 dark:bg-black" id="faq">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-primary font-semibold tracking-wide uppercase text-sm">¿Tienes dudas?</h2>
+                <p
+                    class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+                    Preguntas Frecuentes
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 mx-auto">
+                    Respuestas a las consultas más habituales de nuestros clientes.
+                </p>
+            </div>
+            <div class="space-y-4">
+                <details
+                    class="group bg-white dark:bg-surface-dark rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-gray-800 transition-all duration-300 open:ring-1 open:ring-primary/50">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">schedule</span>
+                            ¿Cuánto tiempo tardan los servicios de lavado?
+                        </h3>
+                        <span class="transition-transform duration-300 group-open:rotate-180 flex items-center">
+                            <span
+                                class="material-symbols-outlined text-gray-400 group-hover:text-primary transition-colors">expand_more</span>
+                        </span>
+                    </summary>
+                    <div
+                        class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700/50 pt-4">
+                        <p>El tiempo varía según el paquete. Un <strong>Lavado Común</strong> toma aprox. 45-60 min. El
+                            <strong>Lavado Premium</strong> entre 1.5 y 2 horas. Servicios especializados como el
+                            <strong>Tratamiento Cerámico</strong> pueden requerir de 5 a 8 horas, más tiempo de curado.
+                        </p>
+                    </div>
+                </details>
+                <details
+                    class="group bg-white dark:bg-surface-dark rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-gray-800 transition-all duration-300 open:ring-1 open:ring-primary/50">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">eco</span>
+                            ¿Utilizan productos ecológicos?
+                        </h3>
+                        <span class="transition-transform duration-300 group-open:rotate-180 flex items-center">
+                            <span
+                                class="material-symbols-outlined text-gray-400 group-hover:text-primary transition-colors">expand_more</span>
+                        </span>
+                    </summary>
+                    <div
+                        class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700/50 pt-4">
+                        <p>Sí, nos preocupamos por el medio ambiente. Utilizamos una línea de productos biodegradables y
+                            técnicas de bajo consumo de agua (waterless wash) para ciertos servicios, garantizando un
+                            acabado impecable sin dañar el ecosistema.</p>
+                    </div>
+                </details>
+                <details
+                    class="group bg-white dark:bg-surface-dark rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-gray-800 transition-all duration-300 open:ring-1 open:ring-primary/50">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">calendar_month</span>
+                            ¿Cómo puedo agendar una cita?
+                        </h3>
+                        <span class="transition-transform duration-300 group-open:rotate-180 flex items-center">
+                            <span
+                                class="material-symbols-outlined text-gray-400 group-hover:text-primary transition-colors">expand_more</span>
+                        </span>
+                    </summary>
+                    <div
+                        class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700/50 pt-4">
+                        <p>Es muy sencillo. Puedes reservar directamente desde nuestra sección de <a
+                                class="text-primary hover:underline" href="#contacto">contacto</a> en esta página,
+                            enviarnos un mensaje por WhatsApp o llamarnos por teléfono. Recomendamos agendar con 24-48
+                            horas de anticipación para asegurar tu lugar.</p>
+                    </div>
+                </details>
+                <details
+                    class="group bg-white dark:bg-surface-dark rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-gray-800 transition-all duration-300 open:ring-1 open:ring-primary/50">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">workspace_premium</span>
+                            ¿Qué diferencia hay entre el lavado premium y el VIP?
+                        </h3>
+                        <span class="transition-transform duration-300 group-open:rotate-180 flex items-center">
+                            <span
+                                class="material-symbols-outlined text-gray-400 group-hover:text-primary transition-colors">expand_more</span>
+                        </span>
+                    </summary>
+                    <div
+                        class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700/50 pt-4">
+                        <p>El <strong>Lavado Premium</strong> se enfoca en una limpieza profunda exterior/interior y un
+                            encerado básico. El <strong>Lavado VIP</strong> eleva la experiencia al máximo nivel,
+                            incluyendo descontaminación de pintura, hidratación de pieles y plásticos, lavado de motor a
+                            vapor y un perfumado especial de larga duración.</p>
+                    </div>
+                </details>
+                <details
+                    class="group bg-white dark:bg-surface-dark rounded-xl shadow-md overflow-hidden border border-gray-100 dark:border-gray-800 transition-all duration-300 open:ring-1 open:ring-primary/50">
+                    <summary class="flex justify-between items-center cursor-pointer p-6 select-none">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">payments</span>
+                            ¿Qué métodos de pago aceptan?
+                        </h3>
+                        <span class="transition-transform duration-300 group-open:rotate-180 flex items-center">
+                            <span
+                                class="material-symbols-outlined text-gray-400 group-hover:text-primary transition-colors">expand_more</span>
+                        </span>
+                    </summary>
+                    <div
+                        class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700/50 pt-4">
+                        <p>Aceptamos efectivo, transferencias bancarias y todas las tarjetas de crédito/débito. El pago
+                            se realiza al finalizar el servicio y quedar 100% satisfecho con el resultado.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary text-white py-16 relative overflow-hidden" id="contacto">
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-white opacity-10 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-black opacity-20 blur-3xl"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="lg:flex lg:items-start lg:justify-between">
+                <div class="lg:w-1/2 lg:pr-12 lg:sticky lg:top-32">
+                    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl mb-4">
+                        ¿Listo para ver tu auto brillar?
+                    </h2>
+                    <p class="text-xl text-red-100 mb-8">
+                        Agenda tu cita hoy mismo. Déjanos tus datos y nos pondremos en contacto contigo lo antes posible
+                        para confirmar tu servicio.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <a class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-100 transition-colors shadow-lg"
+                            href="#">
+                            <span class="material-symbols-outlined mr-2">call</span> Llámanos
+                        </a>
+                        <a class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black/30 hover:bg-black/40 backdrop-blur-sm transition-colors border-2 border-white/20"
+                            href="#">
+                            <span class="material-symbols-outlined mr-2">chat</span> WhatsApp
+                        </a>
+                    </div>
+                    <div class="mt-8 space-y-4 border-t border-red-400/30 pt-8">
+                        <div class="flex items-center text-red-100">
+                            <span class="material-symbols-outlined mr-3">schedule</span>
+                            <span>Lunes a Sábado: 9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="flex items-center text-red-100">
+                            <span class="material-symbols-outlined mr-3">location_on</span>
+                            <span>Servicio a Domicilio y Local Central</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 mt-10 lg:mt-0">
+                    <form
+                        class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-2xl space-y-5 text-gray-800 dark:text-gray-200">
+                        <h3
+                            class="text-2xl font-bold text-gray-900 dark:text-white mb-6 border-b pb-4 border-gray-200 dark:border-gray-700">
+                            Solicitar Cotización</h3>
+                        <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                                    for="name">Nombre Completo</label>
+                                <div class="mt-1 relative rounded-md shadow-sm">
+                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                        <span class="material-symbols-outlined text-gray-400 text-lg">person</span>
+                                    </div>
+                                    <input
+                                        class="block w-full pl-10 rounded-md border-gray-300 dark:border-gray-600 dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm p-2.5 bg-gray-50 dark:text-white"
+                                        id="name" placeholder="Tu nombre" required="" type="text" />
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                                    for="phone">Teléfono</label>
+                                <div class="mt-1 relative rounded-md shadow-sm">
+                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                        <span class="material-symbols-outlined text-gray-400 text-lg">phone</span>
+                                    </div>
+                                    <input
+                                        class="block w-full pl-10 rounded-md border-gray-300 dark:border-gray-600 dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm p-2.5 bg-gray-50 dark:text-white"
+                                        id="phone" placeholder="(55) 1234 5678" required="" type="tel" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300" for="email">Correo
+                                Electrónico</label>
+                            <div class="mt-1 relative rounded-md shadow-sm">
+                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                    <span class="material-symbols-outlined text-gray-400 text-lg">mail</span>
+                                </div>
+                                <input
+                                    class="block w-full pl-10 rounded-md border-gray-300 dark:border-gray-600 dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm p-2.5 bg-gray-50 dark:text-white"
+                                    id="email" placeholder="tucorreo@ejemplo.com" required="" type="email" />
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                                for="service">Servicio de Interés</label>
+                            <div class="mt-1 relative rounded-md shadow-sm">
+                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                    <span class="material-symbols-outlined text-gray-400 text-lg">build_circle</span>
+                                </div>
+                                <select
+                                    class="block w-full pl-10 rounded-md border-gray-300 dark:border-gray-600 dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm p-2.5 bg-gray-50 dark:text-white appearance-none"
+                                    id="service">
+                                    <option>Selecciona un servicio</option>
+                                    <option>Lavado Común</option>
+                                    <option>Lavado Premium</option>
+                                    <option>Lavado VIP</option>
+                                    <option>Tratamiento Cerámico</option>
+                                    <option>Corrección de Barniz</option>
+                                    <option>Limpieza de Interiores</option>
+                                    <option>Otro</option>
+                                </select>
+                                <div
+                                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                    <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path clip-rule="evenodd"
+                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                                for="message">Mensaje Adicional</label>
+                            <div class="mt-1">
+                                <textarea
+                                    class="block w-full rounded-md border-gray-300 dark:border-gray-600 dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm p-3 bg-gray-50 dark:text-white"
+                                    id="message" placeholder="¿Tienes alguna duda específica o requerimiento especial?"
+                                    rows="4"></textarea>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3.5 px-4 rounded-lg shadow-lg shadow-primary/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all transform hover:translate-y-[-2px] flex items-center justify-center gap-2"
+                            type="submit">
+                            <span class="material-symbols-outlined">send</span>
+                            Enviar Solicitud
+                        </button>
+                        <p class="text-xs text-center text-gray-500 mt-4">Al enviar este formulario aceptas nuestra
+                            política de privacidad.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-900 text-gray-300 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center gap-2 mb-4">
+                        <div
+                            class="h-8 w-8 bg-black rounded-full flex items-center justify-center border border-primary">
+                            <span class="text-white text-[10px] font-bold">DCC</span>
+                        </div>
+                        <span class="font-display font-bold text-lg text-white">DETAILING <span class="text-primary">CAR
+                                CENTER</span></span>
+                    </div>
+                    <p class="text-sm text-gray-400 max-w-sm">
+                        Somos expertos en la estética automotriz, dedicados a proteger y embellecer tu inversión con
+                        técnicas de vanguardia y productos de la más alta calidad.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-primary transition-colors" href="#inicio">Inicio</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#servicios">Servicios</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#proceso">Proceso</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#faq">FAQ</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold uppercase tracking-wider text-sm mb-4">Contacto</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center gap-2"><span
+                                class="material-symbols-outlined text-primary text-sm">location_on</span> Servicio a
+                            Domicilio y Local</li>
+                        <li class="flex items-center gap-2"><span
+                                class="material-symbols-outlined text-primary text-sm">call</span> +12 345 678 90</li>
+                        <li class="flex items-center gap-2"><span
+                                class="material-symbols-outlined text-primary text-sm">mail</span>
+                            contacto@detailingcar.com</li>
+                        <div class="flex gap-4 mt-4">
+                            <a class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors"
+                                href="#">
+                                <span class="material-symbols-outlined text-sm">public</span>
+                            </a>
+                            <a class="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors"
+                                href="#">
+                                <span class="material-symbols-outlined text-sm">share</span>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-500">
+                © 2023 Detailing Car Center. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    <div
+        class="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 flex gap-4 bg-surface-light/80 dark:bg-surface-dark/80 backdrop-blur-md px-6 py-3 rounded-full shadow-2xl border border-gray-200 dark:border-gray-700 md:hidden">
+        <button class="flex flex-col items-center gap-1 group">
+            <div
+                class="bg-white dark:bg-gray-700 p-2 rounded-full shadow-sm group-hover:scale-110 transition-transform">
+                <span class="material-symbols-outlined text-gray-700 dark:text-white text-xl">person_add</span>
+            </div>
+            <span class="text-[10px] text-gray-600 dark:text-gray-300">Seguir</span>
+        </button>
+        <button class="flex flex-col items-center gap-1 group">
+            <div
+                class="bg-white dark:bg-gray-700 p-2 rounded-full shadow-sm group-hover:scale-110 transition-transform">
+                <span class="material-symbols-outlined text-gray-700 dark:text-white text-xl">account_circle</span>
+            </div>
+            <span class="text-[10px] text-gray-600 dark:text-gray-300">Perfil</span>
+        </button>
+        <button class="flex flex-col items-center gap-1 group">
+            <div
+                class="bg-white dark:bg-gray-700 p-2 rounded-full shadow-sm group-hover:scale-110 transition-transform">
+                <span class="material-symbols-outlined text-gray-700 dark:text-white text-xl">link</span>
+            </div>
+            <span class="text-[10px] text-gray-600 dark:text-gray-300">Copiar</span>
+        </button>
+        <button class="flex flex-col items-center gap-1 group">
+            <div
+                class="bg-white dark:bg-gray-700 p-2 rounded-full shadow-sm group-hover:scale-110 transition-transform">
+                <span class="material-symbols-outlined text-gray-700 dark:text-white text-xl">qr_code</span>
+            </div>
+            <span class="text-[10px] text-gray-600 dark:text-gray-300">QR</span>
+        </button>
+    </div>
+</body>
+
+</html>
