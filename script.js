@@ -20,3 +20,32 @@
     const url = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
     window.open(url, "_blank");
 });
+
+const video = document.querySelector('#proceso video');
+const steps = document.querySelectorAll('.process-step');
+const title = document.getElementById('processTitle');
+const text = document.getElementById('processText');
+
+let videoReady = false;
+
+video.addEventListener('loadedmetadata', () => {
+  videoReady = true;
+});
+
+steps.forEach(step => {
+  step.addEventListener('mouseenter', () => {
+    const time = Number(step.dataset.time);
+
+    title.textContent = step.dataset.title;
+    text.textContent = step.dataset.text;
+
+    if (videoReady && Number.isFinite(time)) {
+      video.pause();
+      video.currentTime = Math.min(time, video.duration - 0.1);
+      video.play();
+    }
+
+    steps.forEach(s => s.classList.remove('ring-2', 'ring-primary'));
+    step.classList.add('ring-2', 'ring-primary');
+  });
+});
