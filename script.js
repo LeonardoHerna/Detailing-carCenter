@@ -15,7 +15,7 @@
       `🛠 Servicio: ${service}%0A` +
       `💬 Mensaje: ${message}`;
 
-    const phoneNumber = "59897431589"; // TU NÚMERO
+    const phoneNumber = "59895551686"; // TU NÚMERO
 
     const url = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
     window.open(url, "_blank");
